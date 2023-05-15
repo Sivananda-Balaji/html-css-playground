@@ -1,0 +1,85 @@
+body {
+  background-color: lightgray;
+}
+p {
+  font-size: 18px;
+}
+#text_1 {
+  background-color: lightcoral;
+  color: blue;
+}
+p#text_2 {
+  text-align: left;
+}
+p#text_3 {
+  text-align: right;
+}
+p#text_4 {
+  text-align: center;
+}
+p#text_5 {
+  text-align: justify;
+}
+p#text_6 {
+  text-decoration: underline;
+}
+p#text_7 {
+  text-decoration: overline;
+}
+p#text_8 {
+  text-decoration: line-through;
+}
+p#text_9 {
+  text-decoration: underline overline;
+}
+p#text_10 {
+  text-decoration: underline red;
+}
+p#text_11 {
+  text-decoration: underline double;
+}
+p#text_12 {
+  text-decoration: underline dotted;
+}
+p#text_13 {
+  text-decoration: underline dashed;
+}
+p#text_14 {
+  text-decoration: underline wavy;
+}
+p#text_15 {
+  text-decoration: underline double 5px;
+}
+p#text_16 {
+  text-decoration: underline green double 5px;
+}
+p#text_17 {
+  text-transform: lowercase;
+}
+p#text_18 {
+  text-transform: uppercase;
+}
+p#text_19 {
+  text-transform: capitalize;
+}
+p#text_20 {
+  text-indent: 5%;
+}
+p#text_21 {
+  letter-spacing: 3px;
+}
+p#text_22 {
+  word-spacing: 10px;
+}
+#section_2 p {
+  line-height: 250%;
+}
+p#text_23 {
+  text-shadow: 2px 2px;
+}
+p#text_24 {
+  text-shadow: 2px 2px green;
+}
+p#text_25 {
+  text-shadow: 2px 2px 5px blue;
+}
