@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue;
+}
+p {
+  font-size: 18px;
+}
+#section_1 p {
+  background-color: lightcoral;
+  height: 200px;
+  width: 200px;
+}
+#section_2 p {
+  background-color: lightcoral;
+  opacity: 50%;
+  height: 200px;
+  width: 200px;
+}
