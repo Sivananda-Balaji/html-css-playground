@@ -1,0 +1,19 @@
+body {
+  background-color: lightsteelblue;
+}
+
+p {
+  font-size: 18px;
+}
+
+#third_head {
+  color: darkviolet;
+}
+
+h2 {
+  color: blue;
+}
+
+.third_title {
+  color: darkred;
+}

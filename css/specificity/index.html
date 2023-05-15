@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Specificity</title>
+  </head>
+  <body>
+    <h1>CSS Specificity</h1>
+    <h2>This is a h2 heading an targeted with the element selector</h2>
+    <h2 class="third_title">
+      This is also h2 heading and targeted with class and element selector
+      (class wins)
+    </h2>
+    <h2 id="third_head">
+      This is also h2 heading and targeted with id,class and element selector
+      (id wins)
+    </h2>
+    <h2 class="third_title" style="color: darkslateblue">
+      This is also h2 heading and targeted with id,class and element selector
+      (inline wins)
+    </h2>
+  </body>
+</html>
