@@ -1,0 +1,48 @@
+p {
+  font-size: 18px;
+}
+#section_1 {
+  position: static;
+  background-color: lightgreen;
+  height: 250px;
+  width: 250px;
+}
+
+#section_2 {
+  position: relative;
+  background-color: lightblue;
+  height: 250px;
+  width: 250px;
+  left: 20px;
+}
+
+#parent {
+  background-color: lightcoral;
+  font-size: 40px;
+  width: 50%;
+}
+
+#child_1 {
+  background-color: lightgreen;
+  position: relative;
+  left: 50px;
+}
+#child_2 {
+  background-color: lightblue;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+#child_3 {
+  background-color: lightslategray;
+  position: fixed;
+  top: 5px;
+  right: 50px;
+}
+
+#text-sticky {
+  background-color: limegreen;
+  position: sticky;
+  width: 20%;
+  top: 5px;
+}
