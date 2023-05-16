@@ -1,0 +1,27 @@
+p {
+  font-size: 18px;
+}
+#section_0 {
+  height: 200px;
+  width: 200px;
+  background-color: lightslategray;
+  margin-bottom: 80px;
+}
+#section_1 {
+  height: 200px;
+  width: 200px;
+  background-color: lightslategray;
+  overflow: hidden;
+}
+#section_2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightslategray;
+  overflow: auto;
+}
+#section_3 {
+  height: 200px;
+  width: 200px;
+  background-color: lightslategray;
+  overflow: scroll;
+}
