@@ -1,0 +1,27 @@
+p {
+  font-size: 18px;
+}
+
+#section_1 {
+  border: 5px solid;
+  margin-bottom: 5px;
+}
+#section_2 {
+  border: 5px solid blue;
+  margin-bottom: 5px;
+}
+#section_3 {
+  border: 5px double red;
+  margin-bottom: 5px;
+}
+#section_4 {
+  border-top: 5px dashed brown;
+  border-bottom: 5px dashed brown;
+  border-left: 5px double brown;
+  border-right: 5px double brown;
+  margin-bottom: 5px;
+}
+#section_5 {
+  border: 5px solid darkgreen;
+  border-radius: 10px;
+}

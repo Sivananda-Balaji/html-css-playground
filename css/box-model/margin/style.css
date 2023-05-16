@@ -1,0 +1,28 @@
+P {
+  font-size: 18px;
+}
+#section_1 {
+  margin-top: 100px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+  margin-left: 80px;
+  background-color: lightcoral;
+}
+
+#section_2 {
+  margin: 25px 50px 75px 100px;
+  background-color: lightcoral;
+}
+
+#section_3 {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: lightcoral;
+}
+#section_4 {
+  width: 200px;
+  height: 200px;
+  background-color: lightcoral;
+  margin: 15% auto;
+}

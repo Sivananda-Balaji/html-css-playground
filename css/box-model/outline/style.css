@@ -1,0 +1,13 @@
+p {
+  font-size: 18px;
+}
+
+#section_1 {
+  outline: 5px solid blue;
+  width: 20%;
+}
+#section_2 {
+  outline: 5px double green;
+  margin: 20px;
+  width: 20%;
+}
