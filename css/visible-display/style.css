@@ -1,0 +1,25 @@
+p {
+  font-size: 18px;
+}
+
+#section_1 {
+  background-color: lightgreen;
+}
+#section_1 .hide {
+  visibility: hidden;
+}
+#section_2 {
+  background-color: lightslategray;
+}
+#section_2 .hide {
+  display: none;
+}
+#section_3 {
+  display: inline-block;
+  background-color: lightcoral;
+  width: 50%;
+}
+#section_4 {
+  display: inline;
+  background-color: lightsalmon;
+}
