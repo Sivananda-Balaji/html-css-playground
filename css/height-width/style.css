@@ -1,0 +1,18 @@
+p {
+  font-size: 18px;
+}
+#section_1 {
+  background-color: lightsalmon;
+  height: 200px;
+  width: 300px;
+}
+#section_2 {
+  background-color: lightpink;
+  height: 200px;
+  width: 50%;
+}
+#section_3 {
+  background-color: lightgreen;
+  height: 200px;
+  width: 20vw;
+}
