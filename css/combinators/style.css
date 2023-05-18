@@ -1,0 +1,15 @@
+p {
+  font-size: 18px;
+}
+#section_1 p {
+  background-color: lightseagreen;
+}
+#section_2 > p {
+  background-color: lightcoral;
+}
+#section_3 + p {
+  background-color: lightslategray;
+}
+#section_4 ~ p {
+  background-color: lightgreen;
+}
