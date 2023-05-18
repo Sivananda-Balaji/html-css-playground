@@ -1,0 +1,43 @@
+p {
+  font-size: 18px;
+}
+#section_1 a:hover {
+  background-color: lightgreen;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#section_1 a:visited {
+  color: red;
+}
+#section_1 a:active {
+  color: black;
+}
+
+#section_2 input:focus {
+  background-color: lightblue;
+  border: 4px solid lightseagreen;
+}
+
+#section_2 input:disabled {
+  background-color: lightgrey;
+}
+#section_3 option:checked {
+  background-color: lightgreen;
+  font-size: 18px;
+}
+#section_4 p:first-child {
+  background-color: lightgreen;
+}
+#section_4 p:last-child {
+  background-color: lightblue;
+}
+#section_5 p:first-of-type {
+  background-color: lightcoral;
+}
+#section_5 p:last-of-type {
+  background-color: lightgray;
+}
+#section_6 p:nth-child(2n) {
+  background-color: lightpink;
+}

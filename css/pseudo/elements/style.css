@@ -1,0 +1,28 @@
+p {
+  font-size: 18px;
+}
+
+#section_1 p::before {
+  content: "I am added using before pseudo element. ";
+  background-color: lightblue;
+}
+
+#section_1 p::after {
+  content: " i am added using after pseudo element";
+  background-color: lightgreen;
+}
+#section_2 p::first-letter {
+  color: lightcoral;
+  font-size: xx-large;
+}
+#section_3 p::first-line {
+  background-color: lightgrey;
+}
+
+#section_4 ::marker {
+  color: darkgreen;
+}
+
+#section_5 p::selection {
+  background-color: lightcoral;
+}
