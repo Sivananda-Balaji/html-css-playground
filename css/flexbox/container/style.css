@@ -1,0 +1,118 @@
+.flex-item {
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 3px solid darkgray;
+  margin: 10px;
+}
+#flex-container-1 {
+  background-color: lightslategray;
+  display: flex;
+}
+#flex-container-2 {
+  background-color: lightslategray;
+  display: inline-flex;
+}
+#flex-container-3 {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#flex-container-4 {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-container-5 {
+  background-color: lightslategray;
+  display: flex;
+  flex-direction: column-reverse;
+}
+#flex-container-6 {
+  background-color: lightslategray;
+  display: flex;
+  flex-wrap: wrap;
+}
+#flex-container-7 {
+  background-color: lightslategray;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+#flex-container-8 {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: flex-end;
+}
+#flex-container-9 {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+}
+#flex-container-10 {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-around;
+}
+#flex-container-11 {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-between;
+}
+#flex-container-12 {
+  background-color: lightslategray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-items {
+  background-color: lightgreen;
+  border: 3px solid darkgray;
+  margin: 10px;
+}
+
+#flex-container-13 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+  align-items: flex-start;
+}
+#flex-container-14 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+  align-items: flex-end;
+}
+#flex-container-15 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+  align-items: center;
+}
+#flex-container-16 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+  align-items: baseline;
+}
+#flex-container-16 .flex-items {
+  height: 200px;
+  width: 200px;
+}
+#flex-container-16 .flex-items:nth-child(3) {
+  padding-top: 3rem;
+}
+#flex-container-16 .flex-items:nth-child(4) {
+  padding-bottom: 3rem;
+}
+#flex-container-17 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+#flex-container-17 .flex-items {
+  height: 100px;
+  width: 100px;
+}

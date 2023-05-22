@@ -1,0 +1,85 @@
+.flex-item {
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 3px solid darkgray;
+  margin: 10px;
+}
+#flex-container-1 {
+  background-color: lightslategray;
+  display: flex;
+}
+
+#flex-container-1 .flex-item:nth-child(1) {
+  order: 4;
+}
+#flex-container-1 .flex-item:nth-child(2) {
+  order: 3;
+}
+#flex-container-1 .flex-item:nth-child(3) {
+  order: 2;
+}
+#flex-container-1 .flex-item:nth-child(4) {
+  order: 5;
+}
+#flex-container-1 .flex-item:nth-child(5) {
+  order: 1;
+}
+
+#flex-container-2 {
+  background-color: lightslategray;
+  display: flex;
+}
+
+#flex-container-2 .flex-item:nth-child(2) {
+  flex-grow: 1;
+}
+#flex-container-2 .flex-item:nth-child(4) {
+  flex-grow: 2;
+}
+
+#flex-container-3 {
+  background-color: lightslategray;
+  display: flex;
+}
+
+#flex-container-3 .flex-item:nth-child(2) {
+  flex-shrink: 2;
+}
+#flex-container-3 .flex-item:nth-child(3) {
+  flex-shrink: 3;
+}
+
+#flex-container-4 {
+  background-color: lightslategray;
+  display: flex;
+}
+
+#flex-container-4 .flex-item:nth-child(2) {
+  flex-basis: 400px;
+}
+
+#flex-container-5 {
+  background-color: lightslategray;
+  display: flex;
+  height: 400px;
+}
+
+#flex-container-5 .flex-items {
+  background-color: lightgreen;
+  border: 3px solid darkgray;
+  margin: 10px;
+  width: 100px;
+}
+#flex-container-5 .flex-item:nth-child(1) {
+  align-self: flex-start;
+}
+#flex-container-5 .flex-item:nth-child(2) {
+  align-self: flex-end;
+}
+#flex-container-5 .flex-item:nth-child(3) {
+  align-self: center;
+}
+#flex-container-5 .flex-items:nth-child(4) {
+  align-self: stretch;
+}
