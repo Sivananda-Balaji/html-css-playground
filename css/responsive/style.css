@@ -1,0 +1,30 @@
+p {
+  font-size: 1.15rem;
+}
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+}
+#container-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  #container-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+@media (max-width: 480px) {
+  #container-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
