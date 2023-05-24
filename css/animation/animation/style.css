@@ -1,0 +1,41 @@
+#container-1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  animation: slide 2s;
+}
+@keyframes slide {
+  from {
+    translate: 0px;
+    background-color: lightseagreen;
+  }
+  to {
+    translate: 200px;
+    background-color: lightgreen;
+  }
+}
+
+#container-2 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  animation: slide 2s forwards;
+}
+#container-3 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  animation: slide 2s 3 forwards;
+}
+#container-4 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  animation: slide 2s reverse forwards;
+}
+#container-5 {
+  width: 200px;
+  height: 200px;
+  background-color: lightseagreen;
+  animation: slide 2s infinite forwards;
+}

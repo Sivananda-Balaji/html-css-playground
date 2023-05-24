@@ -1,0 +1,58 @@
+#container-1 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+  transform: rotate(45deg);
+}
+#container-2 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+  transform: rotate(0.7turn);
+}
+#container-3 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 1rem;
+  transform: scale(1.25);
+}
+#container-4 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  transform: scale(1.25, 1.5);
+}
+#container-5 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  transform: translate(50px);
+}
+#container-6 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  transform: translate(450px, 50px);
+}
+#container-7 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  transform: skew(20deg, 30deg);
+}
+#container-8 {
+  background-color: lightslategray;
+  height: 100px;
+  width: 100px;
+  margin: 2rem;
+  translate: 200px 100px;
+  scale: 1.5;
+  rotate: 0.45turn;
+}
